@@ -3,10 +3,6 @@ package com.imooc.properties;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
-/**
- * Created by madison on 12/14/2016.
- */
-
 @Component
 @ConfigurationProperties(prefix = "girl")
 public class GirlProperties {
